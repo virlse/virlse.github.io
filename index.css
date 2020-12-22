@@ -2,5 +2,54 @@
 /* CSS Document */
 
 body {
-	background: rgba(42,43,45,1.00);
+	background: rgba(20,20,22,1.00);
+	padding: 20px;
+	margin: 0;
 }
+
+h1 {
+	/*font-family: 'Liu Jian Mao Cao', cursive;*/
+	color: #fff;
+	font-size: 32pt;
+	margin: 0
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	margin: 0;
+	color: #fff;
+	font-size: 18pt;
+}
+
+.title {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-bottom: 20px
+}
+
+.subtitle {
+	opacity: 0.4;
+}
+
+.stock-name {
+	font-weight: 600;
+}
+
+.stock-english-name {
+	opacity: 0.6;
+}
+
+.stock-info {
+	font-size: 14pt;
+}
+
+.stock-percentage {
+	color: #FF7274;
+}
+
+.card {
+	background: rgba(255,255,255,0.6);
+	padding: 10px;
+	border-radius: 15px;
+}
+
